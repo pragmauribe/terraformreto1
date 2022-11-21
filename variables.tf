@@ -27,3 +27,8 @@ variable "Subnet_Private" {
   type        = list(string)
   description = "Names of Subnets"
 }
+
+variable "RouteTable" {
+  type        = list(string)
+  description = "Names of Route Table"
+}
