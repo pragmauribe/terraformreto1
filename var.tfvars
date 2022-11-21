@@ -1,0 +1,12 @@
+CIDR_VPC          = ["10.0.0.0/16"]
+CIDR_Public       = ["10.0.1.0/24", "10.0.2.0/24"]
+CIDR_Private      = ["10.0.3.0/24", "10.0.4.0/24"]
+Subnet_Public     = ["Subnet_Public1", "Subnet_Public2"]
+Subnet_Private    = ["Subnet_Private1", "Subnet_Private2"]
+availability_zone = ["us-west-2a", "us-west-2b"]
+RouteTable        = ["RT_Public", "RT_Private"]
+sg_ports          = [22, 80, 443, 8080]
+SecGroup          = ["SecGroup_Public", "SecGroup_Private"]
+ami               = "ami-017fecd1353bcc96e" # AMI Ubuntu
+instance_type     = "t2.micro"
+EC2Names          = ["EC2_Public", "EC2_Private"]
