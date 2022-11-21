@@ -7,3 +7,6 @@ availability_zone = ["us-west-2a", "us-west-2b"]
 RouteTable        = ["RT_Public", "RT_Private"]
 sg_ports          = [22, 80, 443, 8080]
 SecGroup          = ["SecGroup_Public", "SecGroup_Private"]
+ami               = "ami-017fecd1353bcc96e" # AMI Ubuntu
+instance_type     = "t2.micro"
+EC2Names          = ["EC2_Public", "EC2_Private"]

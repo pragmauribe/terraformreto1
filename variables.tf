@@ -42,3 +42,18 @@ variable "SecGroup" {
   type        = list(string)
   description = "Names od the Security Groups"
 }
+
+variable "ami" {
+  type        = string
+  description = "Type of AMI"
+}
+
+variable "instance_type" {
+  type        = string
+  description = "EC2 Instance types"
+}
+
+variable "EC2Names" {
+  type        = list(string)
+  description = "EC2 Instance Names"
+}
