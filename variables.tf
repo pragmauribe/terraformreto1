@@ -32,3 +32,13 @@ variable "RouteTable" {
   type        = list(string)
   description = "Names of Route Table"
 }
+
+variable "sg_ports" {
+  type        = list(number)
+  description = "List of Ingress Ports"
+}
+
+variable "SecGroup" {
+  type        = list(string)
+  description = "Names od the Security Groups"
+}
